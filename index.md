@@ -2,7 +2,7 @@
 title: "Getting started with the Documentation Theme for Jekyll"
 keywords: sample homepage
 tags: [getting_started]
-sidebar: mydoc_sidebar
+sidebar: gl_sidebar
 permalink: index.html
 summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
 ---
@@ -98,12 +98,12 @@ tags: [formatting]
 keywords: notes, tips, cautions, warnings, admonitions
 last_updated: July 3, 2016
 summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
-<span class="red">sidebar: mydoc_sidebar</span>
+<span class="red">sidebar: gl_sidebar</span>
 permalink: mydoc_alerts
 ---
 </pre>
 
-The `sidebar: mydoc_sidebar` refers to the \_data/sidebars/mydoc_sidebar.yml file.
+The `sidebar: gl_sidebar` refers to the \_data/sidebars/gl_sidebar.yml file.
 
 Note that your sidebar can only have 2 levels (expand the **Tag archives** option to see an example of the second level). Given that each product has its own sidebar, this depth should be sufficient (it's really like 3 levels). Deeper nesting goes against usability recommendations.
 
@@ -135,13 +135,13 @@ If you want to set different sidebar defaults based on different folders for you
     layout: "page"
     comments: true
     search: true
-    sidebar: mydoc_sidebar
+    sidebar: gl_sidebar
     topnav: topnav
 ```
 
-This would load the `mydoc_sidebar` for each file in **pages/mydoc**. You could set different defaults for different path scopes.
+This would load the `gl_sidebar` for each file in **pages/mydoc**. You could set different defaults for different path scopes.
 
-For more detail on the sidebar, see [Sidebar navigation][mydoc_sidebar_navigation].
+For more detail on the sidebar, see [Sidebar navigation][gl_sidebar_navigation].
 
 ## Top navigation
 
@@ -170,7 +170,7 @@ Because most topnav options will be the same, the `_config.yml` file specifies t
 
 ## Sidebar syntax
 
-The sidebar data file uses a specific YAML syntax that you must follow. Follow the sample pattern shown in the theme, specically looking at `mydoc_sidebar.yml` as an example: Here's a code sample showing all levels:
+The sidebar data file uses a specific YAML syntax that you must follow. Follow the sample pattern shown in the theme, specically looking at `gl_sidebar.yml` as an example: Here's a code sample showing all levels:
 
 ```yaml
 entries:
@@ -235,7 +235,7 @@ The two outputs available are `web` and `pdf`. (Even if you aren't publishing PD
 
 The YAML syntax depends on exact spacing, so make sure you follow the pattern shown in the sample sidebars. See my [YAML tutorial](mydoc_yaml_tutorial) for more details about how YAML works.
 
-{% include note.html content="If you have just one character of spacing off, Jekyll won't build due to the YAML syntax error. You'll see an error message in your console that says \"Error ... did not find expected key while parsing a block mapping at line 22 column 5. Error: Run jekyll build --trace for more information.\" If you encounter this, it usually refers to incorrect indentation or spacing in the YAML file. See the example mydoc_sidebar.yml file to see where your formatting went wrong." %}
+{% include note.html content="If you have just one character of spacing off, Jekyll won't build due to the YAML syntax error. You'll see an error message in your console that says \"Error ... did not find expected key while parsing a block mapping at line 22 column 5. Error: Run jekyll build --trace for more information.\" If you encounter this, it usually refers to incorrect indentation or spacing in the YAML file. See the example gl_sidebar.yml file to see where your formatting went wrong." %}
 
 Each level must have at least one topic before the next level starts. You can't have a second level that contains multiple third levels without having at least one standalone topic in the second level. If you need a hierarchy that has a folder that contains other folders and no loose topics, use a blank `-` item like this:
 
@@ -299,7 +299,7 @@ To accommodate the title page and table of contents in PDF outputs, each product
 
 Leave the output as `output: pdf` for these frontmatter pages so that they don't appear in the web output.
 
-For more detail on the sidebar, see [Sidebar navigation][mydoc_sidebar_navigation] and [YAML tutorial][mydoc_yaml_tutorial].
+For more detail on the sidebar, see [Sidebar navigation][gl_sidebar_navigation] and [YAML tutorial][mydoc_yaml_tutorial].
 
 ## Comments
 

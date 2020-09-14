@@ -1,0 +1,84 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Gravity Legal
+  version: 1.0
+  folders:
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Get started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Introduction
+      url: /introduction.html
+      output: web, pdf
+
+    - title: Supported features
+      url: /supported_features.html
+      output: web, pdf
+
+    - title: Support
+      url: /support.html
+      output: web, pdf
+
+  - title: Credit/Debit Card Payments
+    output: web, pdf
+    folderitems:
+
+  - title: Bank Transfers (ACH)
+    output: web, pdf
+    folderitems:
+
+  - title: Payment Links
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /payment-link-introduction.html
+      output: web, pdf
+
+    - title: Creating a Payment Link
+      url: /creating-payment-link.html
+      output: web, pdf
+
+    - title: Payment Link Transactions
+      url: /payment-link-transactions.html
+      output: web, pdf
+
+  - title: Standing Links
+    output: web, pdf
+    folderitems:
+
+  - title: Stored Payment Methods
+    output: web, pdf
+    folderitems:
+
+  - title: Subscriptions
+    output: web, pdf
+    folderitems:
+
+  - title: Surcharging
+    output: web, pdf
+    folderitems:
+
+    - title: Charging Card Fees to Clients
+      url: surcharging.html
+      output: web, pdf
+
+  - title: Clio Integration
+    output: web, pdf
+    folderitems:
+
+    - title: Setup
+      url: /clio-integration-setup.html
+      output: web, pdf
+
+    - title: Settings
+      url: /clio-integration-settings.html
+      output: web, pdf
