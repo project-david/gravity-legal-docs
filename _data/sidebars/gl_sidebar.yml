@@ -10,7 +10,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Get started
+    - title: Overview
       url: /index.html
       output: web, pdf
       type: homepage
