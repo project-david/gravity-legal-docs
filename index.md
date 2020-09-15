@@ -1,6 +1,7 @@
 ---
 title: "Gravity Legal Overview"
 keywords: overview
+tags: [Overview, Payment_Link, Standing_Link, Stored_Payment_Method, Trust_Account, Operating_Account]
 sidebar: gl_sidebar
 permalink: index.html
 summary: Gravity Legal allows individual attorneys or firms to collect client payments for services rendered or funds designated for a trust or IOLTA account.

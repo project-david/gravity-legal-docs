@@ -1,7 +1,7 @@
 ---
 title: "Charging Card Fees to Clients"
 keywords: surcharging
-tags: [surcharging]
+tags: [Surcharging, Overview, Card_fees, Accounting]
 sidebar: gl_sidebar
 permalink: surcharging.html
 summary: This page outlines the surcharging feature in Gravity Legal, which allows firms to automatically bill clients for the cost of credit card processing at the point of payment. 
